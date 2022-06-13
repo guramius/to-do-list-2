@@ -1,0 +1,45 @@
+* {
+  background: rgb(190, 86, 67);
+  list-style: none;
+}
+.mainbox {
+  text-align: center;
+  padding: 2%;
+}
+.mainbox form input {
+  background: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  /* width: 200px; */
+  width: 100%;
+  outline: none;
+}
+.mainbox button {
+  border: none;
+  color: white;
+  background: darkcyan;
+  padding: 10px;
+  cursor: pointer;
+  width: 110px;
+}
+.mainbox button:hover {
+  background-color: blue;
+}
+.line-del {
+  text-decoration: line-through;
+  width: 100%;
+  font-size: 20px;
+  background-color: rgba(150, 148, 148, 0.801);
+  color: white;
+}
+.line {
+  width: 100%;
+  margin-left: 20px;
+  cursor: pointer;
+  color: red;
+}
+.del {
+  margin-left: 20px;
+  cursor: pointer;
+}
